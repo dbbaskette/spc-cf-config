@@ -17,6 +17,9 @@ server:
 # Internationalization
 spring.messages.basename: messages/messages
 
+wavefront.application.name=spring-petclinic
+wavefront.application.service=api-gateway
+
 ---
 spring:
   profiles: docker
